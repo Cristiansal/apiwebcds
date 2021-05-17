@@ -1,0 +1,25 @@
+body{
+   
+    background-color:  #73a6c9;
+    background-image: url("img/dia11.png");
+    font-family: 'Oswald', sans-serif;
+    font-size: x-large;
+
+}  
+
+#Container {
+
+    
+     margin-top: 250px;
+     margin-left: 300px;
+}
+
+.volverCL{
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }

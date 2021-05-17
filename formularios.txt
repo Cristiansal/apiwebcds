@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Pagina CDS </title> 
+   </head>
+   <body> 
+      <form>
+         <fieldset>
+         <legend>Datos Personales</legend>
+         <label>Edad</label>
+         <input type="number" placeholder="edad"><br/>
+         <label>Contraseña</label>
+         <input type="password"><br/>
+         <label>nombre</label>
+         <input /><br/>
+         <input type="submit" value="mandelo"/>
+         <textarea></textarea>
+         <button>SenD</button>
+         <select>
+            <option value="goku">Goku</option>
+            <option value="vegeta">Vegeta</option>
+            <option value="gohan">Gohan</option>
+         </select>
+         
+      </fieldset>
+      </form>
+
+   </body>
+</html>

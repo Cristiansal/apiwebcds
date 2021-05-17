@@ -1,0 +1,313 @@
+body{
+    
+    background-color:  #061824;
+    font-family: 'Oswald', sans-serif;
+    background-image: url("img/p3.jpg");
+    
+    }
+     ul{
+    
+         list-style-type: none;  
+         margin: 0%; 
+         padding: 0; 
+         overflow: hidden; 
+         position: fixed;     
+         top: 0; 
+         width: 100%; 
+         background-color:  #061824; 
+     
+        
+        } 
+    
+    li{
+        float: left;  /*  no verticales */
+    }
+    li a {
+       display: block; 
+       color: #ffffff;
+       text-align: center; 
+       padding: 10px;
+       text-decoration: none;
+    
+    }
+    li:hover{   /*  sombra al pasar el cursor */
+    
+        background-color: #08324e;
+    }
+    .active{
+        background-color:  #061824;
+    }
+    .content{
+        border: 2px solid #000000;
+        margin-top: 40px;
+    }
+    .dw_bnt{
+        background-color: rgb(35, 53, 47);
+        color: #fff;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+    .dropdown{
+        border: 2px solid #000000;
+         position: relative; 
+         display: inline-block; 
+       
+    
+    }
+    .dw_content{
+    
+        display: none;
+        position: absolute;
+        background-color: #707879;
+        min-width: 160px;
+        box-shadow: 0px 8px 8px rgba(0, 0, 0, 8);
+    }
+    .dw_content a {
+        
+        color: #ff0000;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        
+    }
+    .dw_content a:hover {
+        
+        background-color: rgba(6, 175, 42, 0.067);
+    }
+    .dropdown:hover .dw_content {
+    display: block;
+    
+    }
+    .titulo {
+    
+      background: url(/img/telematica-1170x430.jpg) ;
+      
+      margin-top: 0px; 
+      margin-left: 80px;
+      margin-right: 85px;
+      padding: 0%; 
+     /*  border: 2px solid #000000;
+      border-radius: 5px; */
+      font-size: 20px;
+      height: 430px;
+      padding: 0%;     
+   
+
+    }
+    .Sec_2{
+
+        border: 2px solid #000000;  
+    }
+    .PiePagina{
+        margin-top: 30px;
+      clear: both;
+      color: #28282e;
+      border-top: 2px solid #2e2b2b;
+      text-align: center;
+      padding: 20px;
+         
+
+    }
+    .p1_ip{
+    color: #ffffff;
+    
+    }
+    .form_ip{
+    color: #ffffff;
+    border: 3px solid #0016b0;
+    border-radius: 15px;
+    width: 50%;
+    margin-left: 130px;
+    /* background-color: #08324e; */
+    height: 100px;
+    
+
+    }
+
+    #resultado{
+
+        display: block;
+        text-align: center;
+        font-size: 40px;
+        margin-left: 130px;
+        margin-bottom: 50px;
+        width: 400px;
+        height: 150px;
+        line-height: 150px;
+        background-color: #0016b0;
+        border-radius: 20px;
+
+    }
+    .Result_ip {
+        color: #ffffff;
+        border: 3px solid #0016b0;
+        border-radius: 15px;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 130px; 
+        /* background-color: #08324e;  */
+        height: 200px; 
+    }
+    .LNet{
+        
+        
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+    .LMask{
+        
+        
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+
+
+    .LDesde{
+        
+        
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+    .LHasta{
+        
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+    .LGateway{
+        
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+    .LPHost{
+        
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+    .LUHost{
+        
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+    .LBroad{
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+    .LNH{
+        border-radius: 5px;
+        position: absolute;
+        left: 260px;
+    }
+    .LClass{
+        border-radius: 5px;
+    
+        position: absolute;
+        left: 260px;
+    }
+
+
+
+    label{
+
+        padding-left: 25px;
+       
+    }
+   
+    .in_mask{
+
+        background-color: #ffffff;
+    }
+    #prueba{
+
+        border: 5px solid #fa1100;
+        margin-left: 130px;
+        width: 100px;
+        height: 50px;
+        background-color: #fff;
+
+    }
+     #punto{
+
+        width: 15px;
+        font-size: 30px;
+
+    }
+ .form_ip input{
+
+    background-color: #96a7d6;
+    width: 65px;
+    
+ }
+ .ayuda{
+
+    margin-top: 50px;
+    border: solid #0016b0;
+    color: #ffffff;
+    padding-left: 20px;
+    text-align: justify;
+    border-radius: 15px;
+    /* background-color: #08324e; */
+ }
+ .PiePagina_Cip{
+     margin: 50px;
+    clear: both;
+    color: #222225;
+    border-top: 2px solid #302d2d;
+    text-align: center;
+    padding: 20px;
+
+ 
+  }
+  #out_class{
+
+    color: chartreuse;
+  }
+  .volver{
+
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    /* background-color: #08324e; */
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+  }
+
+    .content{
+     padding: 5px;
+    width: 500px;
+    color: #ffffff;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    margin-left: 80px;
+
+    }  
+    .Sec_2{
+        padding: 5px;
+       width: 500px;
+       color: #ffffff;
+       border-radius: 6px;
+       border: 2px solid #0016b0;
+       margin-left: 80px;
+   
+       } 
+       .todos{
+        padding: 10px; 
+        margin: 0px; 
+        border-radius: 6px;
+        border: 2px solid #0016b0; 
+        float: right;
+        width:500px;
+        margin-right: 40px;
+       }
+      

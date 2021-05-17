@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora_ip</title>
+    <link rel="stylesheet" href="main.css" type="text/css"/>
+    <link rel="shortcut icon " href="img/escuela.ico" type="image/x-icon">
+    <script src="test_cds.js" defer></script>
+    
+</head>
+<body >
+    <p class="p1_ip"> CALCULADORA DE REDES IP </p>
+
+    <form class="form_ip">
+        <!-- <fieldset> -->
+        <legend >Calculadora de redes ip</legend>
+        <label>Network:</label>
+
+        <input id="numero1" type="number" value=""/>
+        <span id="punto">.</span>
+        <input id="numero2" type="number" value=""/>
+        <span id="punto">.</span>
+        <input id="numero3" type="number" value=""/>
+        <span id="punto">.</span>
+        <input id="numero4" type="number" value=""/>
+        <br/><br/>
+        <label>Mascara:</label>
+        <input  id="mascaraht"  type="number" placeholder="/" value="/"required>
+        <input class="ir" type="button" value="Calcular" onclick="calcula_ipjs()"/>
+        <input type="reset" value="Limpiar">
+     <!-- </fieldset> -->
+     </form>
+     <form class="Result_ip">
+        <!-- <fieldset> -->
+        <legend>Resultado</legend>
+        <label class="name" >Network:</label>
+        <span class="LNet">
+        <label id="out_net0"> 0.0.0.0</label>
+        </span><br>
+        <label class="name" >Mascara:</label>
+        <span class="LMask">
+        <label id="out_mask">255.255.255.255</label>
+        </span><br>
+        <label class="name"  >Desde</label>
+        <span class="LDesde">
+        <label id="lbResultado0">0.</label>
+        <label id="lbResultado1">0.</label>
+        <label id="lbResultado2">0.</label>
+        <label id="lbResultado3">0</label>
+        </span><br>
+        <label class="name"  > Hasta</label>
+        <span class="LHasta">
+        <label id="lbResultado4">0.</label>
+        <label id="lbResultado5">0.</label>
+        <label id="lbResultado6">0.</label>
+        <label id="lbResultado7">0</label>
+        </span><br>
+        <label class="name" >Gateway:</label>
+        <span class="LGateway">
+        <label id="out_gateway0">0.</label>
+        <label id="out_gateway1">0.</label>
+        <label id="out_gateway2">0.</label>
+        <label id="out_gateway3">0</label><br>
+        </span><br>
+        <label class="name" >1er Host:</label>
+        <span class="LPHost">
+        <label id="out_host0">0.</label>
+        <label id="out_host1">0.</label>
+        <label id="out_host2">0.</label>
+        <label id="out_host3">0</label><br>
+        </span><br>
+        <label class="name" >Ultimo Host:</label>
+        <span class="LUHost">
+        <label id="out_host4">0.</label>
+        <label id="out_host5">0.</label>
+        <label id="out_host6">0.</label>
+        <label id="out_host7">0</label><br>
+        </span><br>
+        <label class="name" >Broadcast:</label>
+        <span class="LBroad">
+        <label id="out_broad0">0.</label>
+        <label id="out_broad1">0.</label>
+        <label id="out_broad2">0.</label>
+        <label id="out_broad3">0</label>
+        </span><br>
+        <label class="name" ># Host:</label>
+        <span class="LNH">
+        <label id="out_numhost"></label><br>
+        </span><br>
+        <label class="name" >Clase:</label>
+        <Span class="LClass">
+        <label id="out_class"></label><br>
+        </Span><br>
+    <!--  </fieldset> -->
+     </form>
+     
+     <a class="volver" href="index.html"> Volver</a>
+     <section class="ayuda">
+         <p>
+
+            Las direcciones IP son únicas para cada máquina. Cada dirección es única para cada una de las interfaces de red
+            IP de cada máquina. <br>Si una máquina dispone de más de una interfaz
+            de red, necesitará una dirección IP para cada una.
+        </p>
+        <p>
+            Las direcciones IP tienen una longitud de 32 bits (4 bytes) los cuales  representarían un conjunto de unos
+            4.500 millones de direcciones, útiles para ser asignadas a dispositivos de acceso
+            a la red Internet. 
+        </p>
+        <p>
+            La numeración en IP sigue una filosofía jerárquica. Cada dirección está
+            formada por dos partes. Una corresponde a la red donde está la estación y la otra, a la propia estación.  
+        </p>
+     </section>
+    
+
+</body>
+
+<footer class='PiePagina_Cip '>
+    Derechos Reservados &copy; 2021-CristianSalcedo <br>
+    Proyecto Telematica Segundo Semestre 2020 <br>
+    Escuela de Ingeniería Electrónica UPTC  <br>
+    Sogamoso Boyacá
+ </footer>
+</html>
